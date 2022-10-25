@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*NAVBAR*/
+
+.navbar-brand{
+    width: 124.97px;
+    height: 26.25px;
+    margin: 0 653px 0 0;
+    padding: 0;
+} 
+.container-fluid.navbar{
+    height: 151px;
+    background-color: #6C6C6C;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-nav{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: 0 25px 0 0;
+} 
+
+/*INTRO*/
+.container-fluid.intro{
+    background-color: #6C6C6C;
+    height: 928px;
+    color: #FFF;
+    justify-content: start;
+    align-items: center;
+}
+.container-fluid.intro.container{
+    width: 806px;
+    height: 391px;
+    margin: 302px 819px 383px 295px;
+}
+h1.int{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 93px;
+    inline-size: calc(50% - 198px/2 - 96.5px);
+    width: 806px;
+    height: 198px;
+    margin: 0 0 16px 0;
+}
+p.introd{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 31px;
+    width: 757px;
+    height: 62px;
+    margin: 0 0 50px 0;
+}
+.learn-more{
+    border: 1px solid #FFF;
+    background-color: #6C6C6C;
+    width: 210px;
+    height: 65px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 594px 0 2px;
+}
+
+/*ABOUT US-CARD*/
+.container-fluid.about{
+    justify-content: center;
+    background-color: none;
+    height: 1334px;
+    background-color: #F8F8F8;
+}
+.container-about{
+    justify-content: space-between;
+    width: 1600px;
+    position: relative;
+    margin: -82px 0 0 0;
+}
+.card{
+    width: 500px;
+    height: 389px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 0%;
+    align-items: center;
+}
+.card-img-top{
+    height: 70px;
+    width: 60px;
+    margin: 50px 393px 19px 50px;
+}
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+}
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34px;
+}
+.card-body{
+    padding: 0;
+    margin: 0 50px;
+}
+spam{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 0 0 25px;
+    text-transform: uppercase;
+}
+
+/*ABOUT US-TEXT*/
+.container.text{
+    margin: -855px 0 0 0; 
+    position: relative;
+    padding: 0;
+    justify-content: center;
+}
+.signature{
+    width: 343px;
+    height: 77px;
+}
+.container-fluid.text{
+    justify-content: center;
+    width: 1920px;
+}
+.col-md-7{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 775px;
+    margin: 0 50px 0 0;
+    padding: 0;
+}
+.keep{
+    width: 775px;
+    height: 112px;
+    opacity: 0.75;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 56px;
+    color: #060606;
+}
+.p0{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    color: #0F4C81;
+    text-transform: uppercase;
+    width: 96px;
+    height: 29px;
+}
+.col-md-5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34px;
+    color: #6C6C6C;
+    width: 775px;
+    padding: 0;
+}
+.p1{
+    width: 775px;
+    height: 136px;
+}
+.p2{
+    width: 775px;
+    height: 68px;
+}
+
+/*BREAK*/
+.break{
+    width: 1600px;
+    border: 1px solid #DBDBDB;
+    margin: -535px auto auto auto;
+}
+
+/*ABOUT US WARRANTY*/
+.container-fluid.end{
+    padding: 0;
+    justify-content: center;
+}
+ul.check{
+    list-style-type: none;
+    padding: 0;
+    margin: 52px 0 48px 0;
+    width: 1600px;
+    justify-content: space-between;
+    align-items: center;
+}
+li.end{
+    display: inline;
+    background: url('/assets/Icon4.png') no-repeat left center ;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 35px;
+    color: #060606;
+    padding-left: 28.42px;
+}
+.li1{
+    width: 270px;
+    height: 35px;
+}
+.li2{
+    width: 311px;
+    height: 35px;
+}
+.li3{
+    width: 288px;
+    height: 35px;
+}
+.li4{
+    width: 344px;
+    height: 35px;
+}
+
+/*ABOUT US IMAGE*/
+.container-fluid.image{
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.container.image{
+    max-width: 1600px;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+}
+.img{
+    width: 1600px;
+    height: 800px;
+    margin: 0;
+}
+
+/*ABOUT US IMAGE*/
+.container-fluid.works{
+    justify-content: center;
+    margin: 0;
+    height: 400px;
+    background-color: #FFF;
+}
+.container.works{
+    max-width: 1600px;
+    padding: 0;
+}
+.box-1, .box-2, .box-3, .box-4{
+    width: 400px;
+    height: 400px;
+}
+.box-1{
+    background-color: #FFF;
+}
+.box-2{
+    background-color: #0F4C81;
+}
+.box-3{
+    background-color: #FBFBFB;
+}
+.box-4{
+    background-color: #060606;  
+}
+.h3-1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 56px;
+    color: #060606;
+    margin: 0 100px 97px 0;
+}
+.h3-2{
+    margin: 124px 50px 0 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.h3-3{
+    margin: 124px 50px 0 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px; 
+    color: #060606;
+}
+.pp-1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    color: #0F4C81;
+    text-transform: uppercase;
+    margin: 97px 243px 9px 0;
+}
+.pp-2{
+    margin: 13px 50px 124px 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34px;
+    color: #CFD7E7;
+}
+.pp-3{
+    margin: 13px 50px 124px 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34px;
+    color: #6C6C6C;
+}
+.pp-4{
+    margin: 13px 50px 124px 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34px;
+    color: #B4B4B4;
+}
+.container-fluid.numbers{
+    justify-content: center;
+    margin: -400px 0 0 0;
+    height: 400px;
+    background-color: #FFF;
+}
+.container.numbers{
+    max-width: 1600px;
+    padding: 0;
+    align-items: flex-start;
+    margin: 0;
+}
+.box1, .box2, .box3, .box4{
+    width: 400px;
+    height: 400px;
+    text-align: end;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.h3-numb {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 300px;
+    line-height: 450px;
+    color: #FBFBFB;
+    margin: -120px -30px 0 0;
+    padding: 0;
+}
+.h3-numb.one{
+    opacity: 0.04;
+}
+.h3-numb.two{
+    opacity: 0.03;
+    color: #060606;
+}
+.h3-numb.three{
+    opacity: 0.07;
+}
+
+/*TEAM*/
+.container.tea{
+    max-width: 1600px;
+    justify-content: center;
+    align-items: center;
+    margin: -40px 0 -250px 420px;
+}
+.tea{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 400px;
+    line-height: 600px;
+    text-align: right;
+    color: #FBFBFB;
+    width: 1178px;
+    height: 600px;
+}
+.tm{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    color: #0F4C81;
+    width: 151px;
+    height: 29px;
+}
+.teamh{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 56px;
+    color: #060606;
+    width: 623px;
+    height: 122px;
+}
+.container-fluid.team{
+    justify-content: center;
+    background-color: #FFF;
+    flex-direction: row-reverse;
+    position: relative;
+}
+.container.team{
+    max-width: 1600px;
+    margin: 152px 0 0 0;
+    padding: 0;
+    position: absolute;
+}
+
+/*TEAM CARD*/
+.container-fluid.t-card{
+    margin: 40px 0 0 0;
+    padding: 0;
+    justify-content: center;
+    background-color: #FFF;
+    height: 886px;
+}
+.container.t-card{
+    max-width: 1600px;
+    margin: 0;
+    padding: 0;
+}
+.team-card{
+    width: 500px;
+    height: 726px;
+    margin: 0 50px 0 0;
+}
+.img-team{
+    margin: 0;
+    max-width: 500px;
+    max-height: 550px;
+}
+.btn-team{
+    background: #0F4C81;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 34px;
+    border-radius: 0%;
+    border: none;
+    width: 214px;
+    height: 54px;
+    color: #FFF;
+    top: 65%;
+    left: 5%;
+    position: absolute;
+}
+.team-card{
+    position: relative;
+}
+.card-title-team{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+    color: #060606;
+    margin: 19px 0 13px 0;
+}
+.card-text-team{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34px;
+    color: #6C6C6C;
+}
+.socials{
+    font-size: 20px;
+    width: 124px;
+    justify-content: space-between;
+}
+
+/*PRICE PLANS*/
+
+/*ENDING*/
+.container-fluid.ending{
+    height: 144px;
+    background-color: #060606;
+}
+.container.ending{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+}
+.closing{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.fa-brands{
+    color: #FFF;
+}
+.fa-brands.fa-facebook-f{
+    width: 20px;
+    height: 20px;
+}
+.fa-brands.fa-linkedin-in{
+    width: 20px;
+    height: 20px;
+}
+
+
+.container.carousel{
+    max-width: 1600px;
+    margin: 0;
+}
+.logos{
+    width: 167px;
+    height: auto;
+}
+.container-fluid.carousel{
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin: -70px 0 0 0;
+}
